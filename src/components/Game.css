@@ -1,0 +1,39 @@
+.game h1{
+    font-size: 2.5em;
+}
+
+.tip span{
+    color: rgb(145, 219, 123);
+}
+
+.wordContainer{
+    border: 20px solid rgb(145, 219, 123);
+    margin: 1.5em;
+    padding: 1.5em;
+    display: flex;
+}
+
+.letter, .blanckSquare{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.letterContainer form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letterContainer input{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 0.7em;
+}
